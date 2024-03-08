@@ -5,6 +5,8 @@
 // Complete the code, run, succeed !
 // Tips: use details and revealHint if you struggle ;)
 
+console.clear();
+
 // OPERATORS //
 
 // Write a function that takes a number (n) as argument. Return 'odd' if its odd, 'even' otherwise.
@@ -66,7 +68,6 @@ function formatName(arr) {
 
 
 // Don't mind all that //
-console.clear();
 
 function testFn(func, tests) {
     const results = tests.map(({params}) => func(...params));
