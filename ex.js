@@ -9,41 +9,80 @@ console.clear();
 
 // OPERATORS //
 
-// Write a function that takes a number (n) as argument. Return 'odd' if its odd, 'even' otherwise.
+/**
+ * Write a function that takes a number (n) as argument. Return 'odd' if its odd, 'even' otherwise.
+ * 
+ * @param {number} n 
+ * @returns {'odd' | 'even'}
+ */
 function evenOrOdd(n) {
   // Your code here
 }
 
 // STRINGS //
 
-// Write a function that takes a string (str) and a number (n) as argument. Return the nth character of 'str'.
+
+/**
+ * Write a function that takes a string (str) and a number (n) as argument. Return the nth character of 'str'.
+ * 
+ * @param {string} str
+ * @param {number} n
+ * @returns {string}
+ */
 function nthCharater(str, n) {
   // Your code here
 }
 
-// Write a function that takes a string (str) as argument. Return the first half of str (rounded up).
+
+/**
+ * Write a function that takes a string (str) as argument. Return the first half of str (rounded up).
+ * 
+ * @param {string} str
+ * @returns {string}
+ */
 function firstHalf(str) {
   // Your code here
 }
 
-// Write a function that takes two strings (str and c) as arguments. Return the number of times c occurs in str.
+/**
+ * Write a function that takes two strings (str and c) as arguments. Return the number of times c occurs in str.
+ * 
+ * @param {string} str
+ * @param {string} c
+ * @returns {number}
+ */
 function numberOccurence(str, c) {
   // Your code here
 }
 
 // ARRAYS //
 
-// Write a function that takes an array of int (arr) as argument. Return the number of negative number in arr.
+/**
+ * Write a function that takes an array of int (arr) as argument. Return the number of negative number in arr.
+ * 
+ * @param {number[]} arr
+ * @returns {number}
+ */
 function negativeCount(arr) {
   // Your code here
 }
 
-// Write a function that takes an array of int (arr) as argument. Return true if all elements in arr are the same, false otherwise.
+/**
+ * Write a function that takes an array of int (arr) as argument. Return true if all elements in arr are the same, false otherwise.
+ * 
+ * @param {number[]} arr
+ * @returns {boolean}
+ */
 function sameElements(arr) {
   // Your code here
 }
 
-// Write a function that takes a string (str) as argument. Return the reverse of str.
+/**
+ * Write a function that takes a string (str) as argument. Return the reverse of str.
+ * 
+ * @param {string} str
+ * @returns {string}
+ */
 function reverseString(str) {
   // Your code here
 }
@@ -51,17 +90,29 @@ function reverseString(str) {
 // OBJECTS //
 
 
-// Write a function that takes an object (obj) and an operator (op, either 'add', 'sub', 'mul') as argument.
-// obj contains a and b attributes, both optional number.
-// Return the result of the operation between attribute a and attribute b of the object. If the number does not exists, replace it by 1.
+/**
+ * Write a function that takes an object (obj) and an operator (op, either 'add', 'sub', 'mul') as argument.
+ * obj contains a and b attributes, both optional number.
+ * Return the result of the operation between attribute a and attribute b of the object. If the number does not exists, replace it by 1.
+ * 
+ * @param {object} obj
+ * @param {'add' | 'sub' | 'mul'} op
+ * @returns {number}
+ */
 function opOnObject(obj, op) {
   // Your code here
 }
 
-// Write a function that takes an array of objects (arr) as argument.
-// arr is an array of object containing firstname and lastname attributes, both optional string.
-// Return an array containing the first letter of firstname and the complete lastname. Replace unknown names with X
-// (Eg. firstname: "John" lastname: "Doe", output: "J Doe")
+/**
+ * Write a function that takes an array of objects (arr) as argument.
+ * arr is an array of object containing firstname and lastname attributes, both optional string.
+ * Return an array containing the first letter of firstname and the complete lastname. Replace unknown names with X
+ * (Eg. firstname: "John" lastname: "Doe", output: "J Doe")
+ * 
+ * @param {object[]} arr
+ * @returns {string[]}
+ */
+
 function formatName(arr) {
   // Your code here
 }
